@@ -1,0 +1,11 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+
+    cout << setfill('0')<< setw(2) << n % 100;
+} 
